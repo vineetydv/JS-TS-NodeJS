@@ -27,3 +27,7 @@ x =12;
 console.log(typeof(x));
 x = "string";
 console.log(typeof(x));
+
+let chars = x.split('');
+let charCode = chars[0].charCodeAt(0);
+console.log(charCode);

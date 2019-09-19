@@ -1,10 +1,9 @@
-"use strict";
 console.log("Hello World!");
-let str = ["Java", "JS", "TS", "NodeJS"];
+var str = ["Java", "JS", "TS", "NodeJS"];
 console.log(str);
-let items = ["any", 0, false];
+var items = ["any", 0, false];
 console.log(items);
-let car = {
+var car = {
     model: "Audi",
     version: "A5",
     price: 6500000
@@ -16,12 +15,12 @@ car = {
     price: 3500000
 };
 console.log(car);
-let x;
+var x;
 console.log(typeof (x));
 x = 12;
 console.log(typeof (x));
 x = "string";
 console.log(typeof (x));
-let chars = x.split('');
-let charCode = chars[0].charCodeAt(0);
+var chars = x.split('');
+var charCode = chars[0].charCodeAt(0);
 console.log(charCode);
