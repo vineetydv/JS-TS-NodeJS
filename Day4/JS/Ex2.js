@@ -30,14 +30,14 @@ let double = (num) => {
     return promise1;
 }
 
-async function doSomething(){
+function doSomething(){
    
-   let result =  await square(10)
+   let result =  square(10)
                 .then(res => increment(res))
                 .then(res => double(res))
-                .catch(res => console.log("Too less! "+res));
+                .then(res => console.log("Result after calculations :"+res));
 
-    console.log("Result after calculations :"+result);
+    // console.log("Result after calculations :"+result);
 }
 doSomething();
 
